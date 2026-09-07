@@ -1,0 +1,38 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Secrets and credentials
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Backups and database dumps
+*.bak
+*.backup
+*.dump
+*.sql
+
+# Logs
+*.log
+logs/
+
+# Runtime and persistent application data
+data/
+volumes/
+
+# Temporary files
+tmp/
+temp/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
